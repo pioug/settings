@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Internet</string>
+	<key>connections</key>
+	<dict>
+		<key>AFD83AD8-89DA-47A5-A8E3-4691CFE9AD8D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>013191EC-5E07-4C21-BA2D-58BCB14A15D4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Gilles Piou</string>
+	<key>description</key>
+	<string>Copy wallet ID</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Bitcoin Address</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>bitcoin</string>
+				<key>subtext</key>
+				<string>Copy addresss in clipboard</string>
+				<key>text</key>
+				<string>Bitcoin wallet</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>AFD83AD8-89DA-47A5-A8E3-4691CFE9AD8D</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>1KTnV2q2JS29FgiWz71hKyb1gN3wQ98LcL</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>013191EC-5E07-4C21-BA2D-58BCB14A15D4</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>013191EC-5E07-4C21-BA2D-58BCB14A15D4</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>AFD83AD8-89DA-47A5-A8E3-4691CFE9AD8D</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://pioug.me</string>
+</dict>
+</plist>

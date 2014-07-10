@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>ameijer.nl.openin.sublime</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>769577F3-91AF-49E8-921F-C2E84344E2A2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>218DEA89-3AE7-4293-85D8-714FE28947E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>E3D54CC9-2C8D-4F82-88B1-57F3D21E1BAD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>218DEA89-3AE7-4293-85D8-714FE28947E9</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Alex Meijer</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Open in Sublime</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>/Applications/Sublime Text.app</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>218DEA89-3AE7-4293-85D8-714FE28947E9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>acceptsmulti</key>
+				<true/>
+				<key>filetypes</key>
+				<array/>
+				<key>name</key>
+				<string>Open in Sublime</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.action</string>
+			<key>uid</key>
+			<string>E3D54CC9-2C8D-4F82-88B1-57F3D21E1BAD</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>subl</string>
+				<key>scopes</key>
+				<array>
+					<string>~/Desktop</string>
+					<string>~/Dev</string>
+					<string>~/Downloads</string>
+					<string>~/Google Drive</string>
+				</array>
+				<key>title</key>
+				<string>Open in Sublime...</string>
+				<key>types</key>
+				<array>
+					<string>public.folder</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>769577F3-91AF-49E8-921F-C2E84344E2A2</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>USAGE: subl 'foldername'
+
+e.g Open the Documents folder (/Users/userName/Documents):
+subl Documents
+
+
+I WANT TO OPEN FILES!!
+Double click the 'file filter' action.
+Remove the public.folder from the 'File Types' filter!
+There you go :)
+
+
+FILES
+Search for file using the syntax "'file" --&gt; press right arrow and type "subl", hit Enter!
+
+eg. open the style.css
+1) type: 'style.css 
+2) hit right arrow key
+3) type: subl
+4) hit enter key to open file with Sublime.
+
+
+Still on Sublime Text 2?
+---------------------------------------------------------------
+Open the workflow, double click the 'Open file' action and drag Sublime Text 2 to the open area. That's it!</string>
+	<key>uidata</key>
+	<dict>
+		<key>218DEA89-3AE7-4293-85D8-714FE28947E9</key>
+		<dict>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+		<key>769577F3-91AF-49E8-921F-C2E84344E2A2</key>
+		<dict>
+			<key>ypos</key>
+			<real>200</real>
+		</dict>
+		<key>E3D54CC9-2C8D-4F82-88B1-57F3D21E1BAD</key>
+		<dict>
+			<key>ypos</key>
+			<real>70</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://www.ameijer.nl</string>
+</dict>
+</plist>
