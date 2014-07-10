@@ -1,0 +1,12 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Dockerfile Syntax Highlighting",
+		"JSHint",
+		"JSON Reindent",
+		"Package Control",
+		"Theme - Spacegray",
+		"TrailingSpaces"
+	]
+}
