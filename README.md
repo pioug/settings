@@ -12,7 +12,10 @@
 - Note: Run `jshint` with `CTRL-J` (requires `npm install -g jshint`)
 
 **BetterTouchTool**
-(soon)
+
+- Trackpad gestures for Chrome Canary / Firefox Nightly / Safari / Sublime Text
+ - Pinch in / out to open/close new tab
+ - Rotate left / right to switch between tabs
 
 **Git**
 (soon)
