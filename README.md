@@ -17,8 +17,9 @@
  - Pinch in / out to open/close new tab
  - Rotate left / right to switch between tabs
 
-**Git**
-(soon)
-
 **Terminal**
+
+- `Tomorrow Night Eighties` theme
+
+**Dotfiles**
 (soon)
