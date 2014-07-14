@@ -22,4 +22,7 @@
 - `Tomorrow Night Eighties` theme
 
 **Dotfiles**
-(soon)
+
+- Personal Git configuration
+- Smart complete in bash
+
